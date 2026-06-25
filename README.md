@@ -67,12 +67,11 @@ options:
   --temp TEMP           output temporary media path (*CAN BE AUTOMATICALLY DELETED!*). Default value:
                         ./temp/  
   --tags TAGS           set any number of comma (,) separated xmp subject tags. Example 'tag1,tag2, name'.
-                        Default value is empty.  
+                        Default value is empty  
   --sidecar             whether to use separate (sidecar) files for writing metadata. Default value is 0
-                        (false).  
-  --mode MODE           mode for writing subject's metadata (overwrite,add,remove). Default value is add.  
-  --start START         used for auto-tagging to process only text after ['start']. Default value is empty
-                        ''.  
+                        (false)  
+  --mode MODE           mode for writing subject's metadata (overwrite,add,remove). Default value is add  
+  --start START         used for auto-tagging to process only text after ['start']. Default value is empty  
   --folder_offset FOLDER_OFFSET
                         used for auto-tagging to determine if parent folder's name should be used instead
                         of file name. Positive number indicate number of levels in file hierarchy. Default
